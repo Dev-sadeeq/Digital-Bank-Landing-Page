@@ -32,8 +32,8 @@ Users should be able to:
 ![](./screenshots/active-mobile-menu.png)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL:(https://github.com/Dev-sadeeq/Digital-Bank-Landing-Page)
+- Live Site URL:(https://dev-sadeeq.github.io/Digital-Bank-Landing-Page/)
 
 ## My process
 
@@ -57,10 +57,7 @@ Here is a snippet of how the layout container and image scaling were locked in t
         <img class="absolute -top-36 right-0 z-0 w-full h-auto md:-top-36 md:w-[80%] md:max-w-none" id="mockups" src="./images/image-mockups.png" alt="mockup image">
         </div>
 ```
-
-```css
-```
-
+I also learned how to implement a bulletproof mobile menu overlay with full background scroll locking across mobile and desktop browsers by toggling overflow states on both html and body:
 ```js
 
   document.documentElement.classList.add('overflow-hidden');
